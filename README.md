@@ -4,6 +4,8 @@
 
 I build tools for questions close to home. Which crops resemble the conditions measured in a field? How do reported road crashes vary across Pakistan’s provinces? I study data science at Dawood University of Engineering and Technology, and my background in graphic design shapes how I present the answers.
 
+[Interactive data science portfolio](https://imran-data-studio.warmessay64.chatgpt.site) · Owner-only preview
+
 ## Featured project · Fieldwise
 
 I built a Streamlit app that takes seven soil and climate readings and ranks three crop matches. You can open **Why this crop?** to compare each reading with the typical range for the top match.

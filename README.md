@@ -16,6 +16,8 @@ I compared six classifiers on 2,200 examples spanning 22 crops. After tuning, th
 
 ## More of my work
 
+- **One Soil Test** — I tested whether weather readings could guide the choice of a single soil measurement. An adaptive policy recovered 17 more crop labels than a fixed policy on 2,200 held-out predictions. [Explore the experiment and reproduce the results](https://github.com/imranali-ds/one-soil-test)
+
 - **Pakistan road safety dashboard** — I used Power BI to compare reported crashes, deaths, and injuries by province and track how each measure changed over time.
 - **AgriFollow** — A crop-monitoring prototype for recording symptoms and comparing photos of the same plant over time. [View the project](https://github.com/imranali-ds/agri_follow)
 - **Student records** — My first Python notebook on GitHub. It stores names and marks in dictionaries and identifies the highest score. [View the notebook project](https://github.com/imranali-ds/student-record-system-notebook)

@@ -1,22 +1,31 @@
 # Imran Ali
 
-I’m a BS Data Science student at Dawood University of Engineering and Technology in Karachi. I build dashboards to explore questions about Pakistan, from road safety to fuel consumption. My interest in AI centers on agriculture, especially what changes in a plant’s leaves can tell us about crop health.
+**Data science student at DUET Karachi · Applied AI and data visualization**
 
-## Selected projects
+I build tools for questions close to home. Which crops resemble the conditions measured in a field? How do reported road crashes vary across Pakistan’s provinces? I study data science at Dawood University of Engineering and Technology, and my background in graphic design shapes how I present the answers.
 
-| Project | What I worked on |
+## Featured project · Fieldwise
+
+I built a Streamlit app that takes seven soil and climate readings and ranks three crop matches. You can open **Why this crop?** to compare each reading with the typical range for the top match.
+
+![Mean five-fold training accuracy before tuning. Random forest led at 98.52%, followed by Naive Bayes at 97.78%.](./assets/fieldwise-model-comparison.svg)
+
+I compared six classifiers on 2,200 examples spanning 22 crops. After tuning, the random forest correctly classified **434 of 440 held-out examples (98.64%)**. How well these recommendations transfer to new farms is still an open question.
+
+[Explore Fieldwise](https://github.com/imranali-ds/fieldwise-crop-recommendation) · [Read the training notebook](https://github.com/imranali-ds/fieldwise-crop-recommendation/blob/main/training_notebook.ipynb) · [See the Streamlit app code](https://github.com/imranali-ds/fieldwise-crop-recommendation/blob/main/app.py)
+
+## More of my work
+
+- **Pakistan road safety dashboard** — I used Power BI to compare reported crashes, deaths, and injuries by province and track how each measure changed over time.
+- **AgriFollow** — A crop-monitoring prototype for recording symptoms and comparing photos of the same plant over time. [View the project](https://github.com/imranali-ds/agri_follow)
+- **Student records** — My first Python notebook on GitHub. It stores names and marks in dictionaries and identifies the highest score. [View the notebook project](https://github.com/imranali-ds/student-record-system-notebook)
+
+## Skills I use
+
+| Area | Tools and methods |
 | --- | --- |
-| [Fieldwise crop recommendation](https://github.com/imranali-ds/fieldwise-crop-recommendation) | Built a Streamlit app that ranks crops from seven soil and climate readings. Compared six classifiers and trained a random forest on a 22-crop dataset. |
-| Pakistan road safety dashboard | Built a Power BI dashboard to compare reported crashes, deaths, and injuries across provinces and track how those counts change over time. |
-| [AgriFollow](https://github.com/imranali-ds/agri_follow) | Developed a crop-monitoring prototype for recording symptoms and comparing photos of the same plant over time. |
-| [Student record notebook](https://github.com/imranali-ds/student-record-system-notebook) | My first Python project on GitHub. I used dictionaries to store names and marks, display the records, and find the highest score. |
-
-## Technical skills
-
-- **Data analysis** — Python, pandas, and NumPy for cleaning datasets, handling missing values, and comparing groups.
-- **Visualization** — Power BI for interactive dashboards, Matplotlib and Seaborn for exploring trends and distributions.
-- **Machine learning** — Decision trees and Naive Bayes for classification, K-means for clustering, and model evaluation in Python notebooks.
-
-My graphic design experience shapes how I present data. When I build a dashboard, I start with the comparison a reader needs to make, then choose the chart, labels, and layout around it.
+| Data analysis | Python, pandas, NumPy, exploratory analysis, missing-value handling |
+| Machine learning | scikit-learn, classification, clustering, cross-validation, model evaluation |
+| Visualization and apps | Power BI, Matplotlib, Seaborn, Streamlit, Jupyter |
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/imranalisahito/)
